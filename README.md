@@ -26,28 +26,32 @@
 ---
 
 ## 🗂 Структура проекта
+
+```text
 project_root/
 │
-├── README.md                 # Описание проекта, цели, источников и гипотез
+├── README.md                  # Описание проекта, цели, источников и гипотез
 │
-├── data/                     # Собранные и обработанные данные
-│   ├── raw/                  # CSV-файлы после парсинга
-│   └── cleaned/              # После очистки и feature engineering
+├── data/                      # Собранные и обработанные данные
+│   ├── raw/                   # CSV-файлы после парсинга
+│   └── cleaned/               # После очистки и feature engineering
 │
-├── parsers/                  # Python-скрипты для парсинга HTML
-│   ├── parse_tests.py        # Парсинг психологических тестов
-│   ├── parse_tools.py        # Парсинг инструментов продуктивности
-│   └── parse_disorders.py    # Парсинг расстройств по МКБ-10
+├── parsers/                   # Python-скрипты для парсинга HTML
+│   ├── parse_tests.py         # Парсинг психологических тестов
+│   ├── parse_tools.py         # Парсинг инструментов продуктивности
+│   └── parse_disorders.py     # Парсинг расстройств по МКБ-10
 │
-├── notebooks/                # Основной анализ (один или несколько блокнотов)
-│   ├── 0_parse_summary.ipynb        # Краткий список задач по каждому участнику
-│   ├── 1_preprocessing.ipynb        # Очистка, пропуски, дубликаты, выбросы
-│   ├── 2_feature_engineering.ipynb  # Создание новых признаков
-│   ├── 3_eda.ipynb                  # Разведывательный анализ, groupby, describe
-│   └── 4_visualization.ipynb        # Графики + промежуточные выводы
+├── notebooks/                 # Основной анализ (Jupyter Notebook'и)
+│   ├── 0_parse_summary.ipynb         # Список задач по каждому участнику
+│   ├── 1_preprocessing.ipynb         # Очистка, пропуски, дубликаты, выбросы
+│   ├── 2_feature_engineering.ipynb   # Создание новых признаков
+│   ├── 3_eda.ipynb                   # Разведывательный анализ, groupby и describe
+│   └── 4_visualization.ipynb         # Графики + промежуточные выводы
 │
-├── requirements.txt          # pip-зависимости (`bs4`, `pandas`, `matplotlib` и др.)
-└── .gitignore
+├── requirements.txt           # pip-зависимости (bs4, pandas, matplotlib и др.)
+└── .gitignore                 # Исключения для git
+```
+
 
 ---
 
