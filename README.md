@@ -1,7 +1,7 @@
 
 ---
 # Movie Analytics Project
-<img width="1536" height="1024" alt="ChatGPT Image 21 нояб  2025 г , 20_48_59" src="https://github.com/user-attachments/assets/3f6df545-acff-440e-adb7-0b5fc32dcfee" />
+<img width="670" height="550" alt="ChatGPT Image 21 нояб  2025 г , 20_48_59" src="https://github.com/user-attachments/assets/3f6df545-acff-440e-adb7-0b5fc32dcfee" />
 
 ## Цель проекта
 
